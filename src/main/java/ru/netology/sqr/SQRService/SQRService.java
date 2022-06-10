@@ -6,8 +6,8 @@ public class SQRService {
         int countSQR = 0;
 
         for (int i = firstNumber; i <= lastNumber; i++) {
-            for (int sqrNumber = 0; sqrNumber <= i; sqrNumber++) {
-                if ((i == sqrNumber * sqrNumber) & (sqrNumber > 9) & (sqrNumber < 100)) {
+            for (int sqrNumber = 10; sqrNumber <= 99; sqrNumber++) {
+                if ((i == sqrNumber * sqrNumber))  {
                     countSQR++;
                     break;
                 }
